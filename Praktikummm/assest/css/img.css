@@ -1,0 +1,42 @@
+.img{
+    position: unset;
+    top: 50px;
+    bottom: 50px;
+    left: 50%;
+    right: 50%;
+
+    margin: 0%;
+    padding: 0%;
+    border: 5px solid white;
+    height: 100px;
+    width: 180px;
+}
+
+div ul:hover{
+    position: relative;
+    right: 20%;
+    transform: skewX(15deg);
+    box-shadow: inset 20px 0px 50px rgba(0,0,0,.5);
+}
+/*
+ul:hover li:nth-child(odd){
+    transform: skewY(15deg);
+    box-shadow: inset 20px 0px 50px rgba(0,0,0,.5);
+}
+ul:hover li:nth-child(even){
+    transform: skewY(-15deg);
+    box-shadow: inset 20px 0px 50px rgba(0,0,0,.5);
+}
+ul li:nth-child(1){
+    background-position: 0;
+}
+ul li:nth-child(2){
+    background-position: -190px;
+}
+ul li:nth-child(3){
+    background-position: -380px;
+}
+ul li:nth-child(4){
+    background-position: -570px;
+}
+*/
